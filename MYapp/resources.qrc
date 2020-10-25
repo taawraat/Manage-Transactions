@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/login.svg</file>
+        <file>img/signup.svg</file>
+        <file>img/magnifying-glass.png</file>
+        <file>img/bg-home.jpg</file>
+    </qresource>
+</RCC>

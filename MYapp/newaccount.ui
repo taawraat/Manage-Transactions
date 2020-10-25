@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>newAccount</class>
+ <widget class="QMainWindow" name="newAccount">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>862</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(&quot;:/resources/img/bg-home.jpg&quot;);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>831</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:none;	background: rgba(255,255, 255,0.5);
+	border-radius: 5;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>95</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;
+font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Account Name      :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>50</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size:15px;
+font-weight: 500;
+background:none;</string>
+     </property>
+     <property name="text">
+      <string>Account No Type  :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>145</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Account No            :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>195</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Bank Name            :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>245</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Bank Address       :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>295</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Bank Contact info :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>329</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Mobile No     :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>365</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Email               :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>418</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Totoal amount      :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>498</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Last Deposit Date  :</string>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="accLastDate">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>492</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 0;
+background: rgba(255,255, 255,0.2);</string>
+     </property>
+     <property name="displayFormat">
+      <string>dd/MM/yyyy</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="submit">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>600</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:green;
+color:white;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="reset">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>600</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:red;
+color:white;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Reset</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="validFrom">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>538</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Valid From                :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="validTill">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>578</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Valid till                     :</string>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="accValidFrom">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>532</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 0;
+background: rgba(255,255, 255,0.2);</string>
+     </property>
+     <property name="displayFormat">
+      <string>dd/MM/yyyy</string>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="accValidTill">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>572</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 0;
+background: rgba(255,255, 255,0.2);</string>
+     </property>
+     <property name="displayFormat">
+      <string>dd/MM/yyyy</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="perMonth">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>460</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;font-size:15px;
+font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Amount per month:</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>50</y>
+       <width>111</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QRadioButton" name="SB">
+        <property name="styleSheet">
+         <string notr="true">background:none;</string>
+        </property>
+        <property name="text">
+         <string>SB</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="DPS">
+        <property name="styleSheet">
+         <string notr="true">background:none;</string>
+        </property>
+        <property name="text">
+         <string>DPS</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLineEdit" name="accName">
+     <property name="geometry">
+      <rect>
+       <x>199</x>
+       <y>90</y>
+       <width>290</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none;
+border-bottom: 1px solid grey;
+border-radius: 0;
+background: rgba(255,255, 255,0.0);
+</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="accNo">
+     <property name="geometry">
+      <rect>
+       <x>199</x>
+       <y>140</y>
+       <width>290</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none;
+border-bottom: 1px solid grey;
+border-radius: 0;
+background: rgba(255,255, 255,0.0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="accBankName">
+     <property name="geometry">
+      <rect>
+       <x>199</x>
+       <y>190</y>
+       <width>290</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 0;
+background: rgba(255,255, 255,0.0);
+border:none;
+border-bottom: 1px solid grey;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="accBankAddress">
+     <property name="geometry">
+      <rect>
+       <x>199</x>
+       <y>240</y>
+       <width>290</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 0;
+background: rgba(255,255, 255,0.0);
+border:none;
+border-bottom: 1px solid grey;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="accBankMobile">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>322</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="accBankEmail">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>360</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="accTotal">
+     <property name="geometry">
+      <rect>
+       <x>199</x>
+       <y>413</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="accPerMonth">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>199</x>
+       <y>450</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="warning">
+     <property name="geometry">
+      <rect>
+       <x>45</x>
+       <y>610</y>
+       <width>370</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;color: red;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>0</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 25px;
+font-weight: 700;
+background:none;
+color:rgb(32, 74, 135)</string>
+     </property>
+     <property name="text">
+      <string>Create New Account</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>5</y>
+       <width>50</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">	color: white;
+	font-weight: 700;
+	border-radius: 4px;
+	background: grey;</string>
+     </property>
+     <property name="text">
+      <string>&lt;---</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
